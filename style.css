@@ -1,0 +1,101 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+}
+.container{
+    width: 99%;
+    height: 1000px;
+	position: static;
+    border: 5px solid rgb(155, 155, 155);
+    float: left;
+}
+.header{
+    width: 100%;
+    background-color:rgb(22, 35, 73);
+    float: left;
+ } 
+.header  h1{
+	color: white;
+	font-family: Rockwell;
+    text-align: centerleft;
+    padding-left: 50px;
+    height: 12%;
+    font-family: 'Fredoka One', cursive;
+}
+.contentl{
+    width: 40%;
+	height: 80%;
+    background-color:rgb(41, 41, 41);
+    float: left;
+    margin:auto
+    ;
+ } 
+ .contentm{
+    width: 40%;
+	height: 80%;
+    background-color:rgb(41, 41, 41);
+    float: left;
+ } 
+ .contentr{
+    width: 20%;
+	height: 80%;
+    background-color:rgb(41, 41, 41);
+    float: left;
+ } 
+ .footer{
+    width: 100%;
+	height: 30%;
+    background-color:purple;
+    float: left;
+ } 
+.banner{
+    width: 100%;
+    height: 30%;
+    background-color:rgb(6, 80, 109);
+    float: left;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    float: right;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: rgb(12, 111, 156);
+}
+.img-glove {width:300px;}
+.golf-club {width:450px;}
+.golf-hat{width:250px;}
+.florida{width: 250px;}
+.scottland{width: 290px;}
+.hawaii{width: 250px;}
+.lasvegas{width: 250px};
+.banner{
+    width: 100%;
+    height:45%
+}
+@media (max-width: 900px) {
+    .contentl{
+        float:left
+        width: 100%;
+        height: 60%
+    }
+}
+@media (max-width: 900px) {
+    .contentl img{
+        width: 300px;
+    }
+}
